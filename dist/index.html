@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Whole</title>
+  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Vue({
+        el: '#app',
+        data: {
+          staringPiece: "starting piece"
+        }
+      })
+    })
+  </script>
+</head>
+<body>
+  <div id="app">
+    <p>{{ staringPiece }}</p>
+  </div>
+</body>
+</html>
